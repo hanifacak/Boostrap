@@ -15,8 +15,33 @@
   <body>
     <div class="container">
       <h1>Boostrap</h1>
-      <button type="button" class="btn btn-danger btn-lg" disabled>Primary</button>
+      <button type="button" class="btn btn-primary position-relative">Allert
+        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+            99+ 
+            <span class="visually-hidden">unread messages</span>
+          </span>
+      </button>
+
+      <button type="button" class="btn btn-primary">
+        Notifications <span class="badge text-bg-danger">4</span>
+      </button>
+
+      <div class="btn-group btn-group-sm">
+        <a href="#" class="btn btn-primary active" aria-current="page">Active link</a>
+        <a href="#" class="btn btn-danger">Link</a>
+        <a href="#" class="btn btn-warning">Link</a>
+      </div>
+
       <input class="btn btn-primary" type="button" value="Input">
+
+      <button class="btn btn-primary" type="button" disabled>
+        <span class="spinner-border spinner-border-sm" aria-hidden="true"></span>
+        <span class="visually-hidden" role="status">Loading...</span>
+      </button>
+      <button class="btn btn-primary" type="button" disabled>
+        <span class="spinner-border spinner-border-sm" aria-hidden="true"></span>
+        <span role="status">Loading...</span>
+      </button>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione,
         cumque impedit. Accusamus eaque quaerat qui culpa porro dolore inventore
